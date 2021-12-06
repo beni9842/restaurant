@@ -1,0 +1,56 @@
+* {
+    font-family: 'Comic Sans MS';
+    color: black;
+}
+
+body, div {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    background-color: antiquewhite;
+}
+
+
+#tabs {
+    width: 60%;
+    flex-direction: row;
+    justify-content: space-between;margin-top: 30px;
+}
+
+#content {
+    width: 80%;
+    height: 100%;
+    background-color: tomato;
+    justify-content: space-between;
+    padding: 30px;
+    gap: 30px;
+    border-radius: 20px;
+}
+
+.tab {
+    background-color: gold;
+    width: 20%;
+    border: 10px;
+}
+
+.current {
+    background-color: tomato;
+}
+
+.card {
+    width: 400px;
+    background-color: gold;
+    border: 4px solid goldenrod;
+    border-radius: 20px;
+    padding: 30px;
+    padding-top: 15px;
+    text-align: center;
+    display: flex;
+}
+
+ul {
+    list-style-type: none;
+    padding: 0;
+    margin: 0;
+}
